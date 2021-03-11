@@ -1,0 +1,6 @@
+usr_str_1 = input('First word: ')
+usr_str_2 = input('Second word: ')
+s1 = set(usr_str_1)
+s2 = set(usr_str_2)
+lst = list(s1 & s2)
+print('Common letters: {}'.format(lst))
